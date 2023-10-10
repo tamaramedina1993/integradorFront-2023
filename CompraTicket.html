@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="integrador.css">
+    
+        <script src="script.js"></script> 
+</head>
+<body>
+    <!--inicio-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <div class="titulo">Compra de ticket</div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </div>
+        </div>
+      </nav>
+
+ <!--formulario comprar ticket-->
+ 
+ <div class="container my-3">
+    <form action="../server/procesarTicket.html" method="post">
+    <div class="row mb-3">
+        <div class="col">
+            <input type="number" name="cant" id="cant" onchange="calcTotal()" onkeyup="calcTotal()" placeholder="cantidadTicket">
+            <div class="small">
+                valor ticket:$1000
+            </div>    
+        </div>
+    
+    <div class="col bg-info">
+        Total a pagar $: <span id="total"   >0</span>
+    </div>
+</div>
+    <div class="row mb-3">
+        <input type="submit" value="comprar" class=" btn btn-success">
+    </div> 
+</form>
+</div>
+<script src="https//cdn.jsdelivr.net/npn/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN"
+    crossorigin="anonymous"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html

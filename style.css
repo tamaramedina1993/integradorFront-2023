@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.oradores{
+    display: flex;
+}
+.oradores div{
+margin: .5rem;
+}
+
+.orador{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 250px;
+    justify-content: center;
+   
+}
+
+.orador img {
+    width: 100%;
+    margin-bottom: 1rem;
+
+    .contenido {
+        padding: 1rem;
+    }
+
+    .botones {
+        margin: 0 0 1rem 0;
+    }
+
+}
+
+.orador a {
+
+    padding: .3rem;
+    background-color: antiquewhite;
+    font-size: .7rem;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.btnAmarillo {
+    background-color: rgb(254, 193, 6);
+
+}
+
+.btnAmarillo:hover{
+    animation: flash; 
+    animation-duration: 1s;
+}
+.btnAzul {
+    background-color: rgb(23, 162, 185);
+    color: white;
+}
+.btnAzul:hover{
+    animation: flash; 
+    animation-duration: 1s;
+}

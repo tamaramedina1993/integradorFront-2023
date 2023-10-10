@@ -1,0 +1,41 @@
+.botones a{
+    font-size: .7rem;
+}
+.card:hover{
+    box-shadow: 0 0 15px lightgrey;
+}
+.textochico{
+    font-size: .8rem;
+}
+.textoGrande{
+    font-size: 1.5rem;
+}
+.bgGrisOscuro{
+    background-color: rgb(32, 32, 31);
+}
+.brilloOscuro{
+    filter: brightness(50%);
+}
+.codo{
+    size: 10px;
+}
+.nav-link{
+    text-align: right;
+}
+
+.orador{
+    font-size: 1.5rem;
+}
+.titulo{
+    font-size: 2.5rem;
+    width: 50%;
+    height: 50px;
+    margin: .2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(165, 89, 89);
+    text-align: center;
+    color:white;
+    
+}
+
+
